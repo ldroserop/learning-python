@@ -14,7 +14,7 @@ def calculator(x, y, z):
             return 'No se puede dividir entre cero (0)'
         return x / y
     elif z == '5':
-        suma = x + y
+        '''suma = x + y
         resta = x - y
         multiplicacion = x * y
         if y == 0:
@@ -26,7 +26,7 @@ def calculator(x, y, z):
             'Resta': resta,
             'Multiplicación': multiplicacion,
             'División': division
-        }
+        }'''
     else :
         print ("::: Opción Inválida :::")
         return 0
