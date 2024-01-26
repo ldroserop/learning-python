@@ -8,9 +8,9 @@ Description: Get data from NASA API about comets
 
 import requests
 
-def get_comet_data(api_key_nasa):
+def get_comet_data(api_key):
     print(":::: Comet Information ::::")
-    url = f"https://api.nasa.gov/neo/rest/v1/neo/3726712?api_key={api_key_nasa}"
+    url = f"https://api.nasa.gov/neo/rest/v1/neo/3726712?api_key={api_key}"
 
     try:
         #Realizar la solicitud a la API
